@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minWidth="500.0" prefHeight="580.0" prefWidth="630.0" style="-fx-background-color: #00054d; -fx-background-radius: 5;" stylesheets="@../../style/formbayar.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.pos.FormBayarController">
+   <children>
+      <Pane prefHeight="388.0" prefWidth="565.0" style="-fx-background-color: #fff; -fx-background-radius: 5;" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="40.0" />
+      <Text fill="#fbff00" layoutX="40.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PEMBAYARAN" textAlignment="CENTER" wrappingWidth="620.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER_LEFT" prefHeight="49.0" prefWidth="620.0" spacing="5.0" styleClass="button-menu" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="200.0">
+         <children>
+            <Text fill="#f5f101" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Tagihan" wrappingWidth="150.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="lbl_total_tagihan" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 2,000,000" textAlignment="RIGHT" wrappingWidth="450.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <VBox layoutX="5.0" layoutY="464.0" spacing="5.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="255.0">
+         <children>
+            <VBox spacing="5.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="354.0" spacing="5.0">
+                     <children>
+                        <Text fill="#070707" layoutX="175.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cara Bayar" wrappingWidth="100.0">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <ComboBox fx:id="cmb_type_bayar" prefHeight="30.0" prefWidth="230.0" />
+                        <Text fx:id="lbl_noKartu" fill="#070707" strokeType="OUTSIDE" strokeWidth="0.0" text="No Kartu" wrappingWidth="80.0">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextField fx:id="txt_no_kartu" alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="180.0">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="354.0" spacing="5.0">
+                     <children>
+                        <Text fill="#070707" strokeType="OUTSIDE" strokeWidth="0.0" text="Bayar" wrappingWidth="100.0">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextField fx:id="txt_bayar" alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="230.0">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </TextField>
+                        <JFXButton fx:id="btn_pas" buttonType="RAISED" prefHeight="40.0" prefWidth="98.0" styleClass="button-menu" text="PAS" textAlignment="CENTER" textFill="#eaee04">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../images/icons8_refund_24px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <TableView fx:id="tbl_list_bayar" prefHeight="120.0" prefWidth="620.0">
+              <columns>
+                <TableColumn fx:id="clm_type_bayar" prefWidth="108.0" text="Type Bayar" />
+                <TableColumn fx:id="clm_total" prefWidth="233.0" text="Total" />
+                  <TableColumn fx:id="clm_ket" minWidth="150.0" prefWidth="150.0" resizable="false" />
+                  <TableColumn fx:id="clm_delete" minWidth="80.0" resizable="false" />
+              </columns>
+            </TableView>
+            <HBox alignment="CENTER_LEFT" prefHeight="49.0" prefWidth="620.0" spacing="5.0" styleClass="button-menu">
+               <children>
+                  <Text fx:id="status_byr" fill="#f5f101" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa Bayar" wrappingWidth="150.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Text>
+                  <Text fx:id="lbl_sisa_bayar" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 2,000,000" textAlignment="RIGHT" wrappingWidth="450.0">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <JFXButton fx:id="btn_lunas" buttonType="RAISED" prefHeight="40.0" prefWidth="95.0" styleClass="button-menu" text="LUNAS" textFill="#fff600" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="15.0">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_refund_48px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn_batal" buttonType="RAISED" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="98.0" styleClass="button-menu" text="BATAL" textAlignment="CENTER" textFill="#eaee04" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_cancel_36px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn_simpan" buttonType="RAISED" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="95.0" styleClass="button-menu" text="SIMPAN" textFill="#f5d800" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="120.0">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_save_36px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <VBox alignment="CENTER_RIGHT" layoutX="369.0" layoutY="50.0" spacing="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Text fx:id="lbl_kode_trans" fill="#0a0a0a" strokeType="OUTSIDE" strokeWidth="0.0" text="ADM/20200318/0001" textAlignment="RIGHT" wrappingWidth="251.0">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <Separator prefWidth="200.0" />
+            <HBox alignment="CENTER_RIGHT">
+               <children>
+                  <Text fill="#0a0a0a" strokeType="OUTSIDE" strokeWidth="0.0" text="Kode : " textAlignment="RIGHT" wrappingWidth="251.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lbl_kode_customer" fill="#0a0a0a" layoutX="10.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CS00001" textAlignment="RIGHT" wrappingWidth="250.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT">
+               <children>
+                  <Text fill="#0a0a0a" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama : " textAlignment="RIGHT" wrappingWidth="251.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lbl_nama_customer" fill="#0a0a0a" layoutX="10.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WIDIAH" textAlignment="RIGHT" wrappingWidth="250.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" layoutX="10.0" layoutY="74.0">
+               <children>
+                  <Text fx:id="lbl_jdl_piutang" fill="#0a0a0a" strokeType="OUTSIDE" strokeWidth="0.0" text="Piutang : " textAlignment="RIGHT" wrappingWidth="251.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lbl_piutang" fill="#0a0a0a" layoutX="10.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 2,000,000" textAlignment="RIGHT" wrappingWidth="250.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" layoutX="10.0" layoutY="102.0">
+               <children>
+                  <Text fx:id="lbl_kode_trans1111" fill="#0a0a0a" strokeType="OUTSIDE" strokeWidth="0.0" text="Point : " textAlignment="RIGHT" visible="false" wrappingWidth="251.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lbl_poin" fill="#0a0a0a" layoutX="10.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="RIGHT" visible="false" wrappingWidth="250.0">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

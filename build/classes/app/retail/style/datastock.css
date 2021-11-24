@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    .table-row{
+        line-height: 50px;
+    }
+}

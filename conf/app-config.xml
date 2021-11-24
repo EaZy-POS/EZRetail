@@ -1,0 +1,10 @@
+<config>
+    <connection>
+        <hostname>localhost</hostname>
+        <port>3306</port>
+        <dbname>dbretail</dbname>
+        <user>root</user>
+        <password>toor</password>
+    </connection>
+    <printer>hp-1060 xxx</printer>
+</config>

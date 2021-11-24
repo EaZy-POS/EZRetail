@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" stylesheets="@../../style/Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.master.MasterKategoriController">
+   <children>
+      <AnchorPane fx:id="AnchorPane" prefHeight="400.0" prefWidth="595.0" styleClass="background" stylesheets="@../../style/mastersupplier.css">
+         <children>
+            <HBox alignment="CENTER" prefHeight="62.0" prefWidth="207.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fitHeight="70.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_categorize_68px.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Master Kategori" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Pane layoutX="29.0" layoutY="114.0" prefHeight="458.0" prefWidth="649.0" style="-fx-background-color: #ffffff;" styleClass="pane" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="75.0">
+               <effect>
+                  <DropShadow color="#545454" height="50.0" radius="24.5" width="50.0" />
+               </effect>
+            </Pane>
+            <TableView fx:id="tbl_kategori" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="210.0">
+               <columns>
+                  <TableColumn fx:id="clm_no_urut" maxWidth="100.0" prefWidth="30.0" resizable="false" text="NO" />
+                  <TableColumn fx:id="clm_id_kategori" maxWidth="110.0" minWidth="110.0" prefWidth="110.0" text="ID KATEGORI" />
+                  <TableColumn fx:id="clm_kategori" maxWidth="1000.0" minWidth="200.0" prefWidth="235.0" resizable="false" text="KATEGORI" />
+                  <TableColumn fx:id="clm_edit" minWidth="46.0" prefWidth="94.0" resizable="false" />
+                  <TableColumn fx:id="clm_delete" minWidth="44.0" prefWidth="94.0" resizable="false" />
+               </columns>
+            </TableView>
+            <HBox prefHeight="91.0" prefWidth="575.0" spacing="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="75.0">
+               <children>
+                  <VBox alignment="CENTER_LEFT" spacing="10.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1. ID KATEGORI" wrappingWidth="150.0">
+                           <font>
+                              <Font name="Arial" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2. KATEGORI" wrappingWidth="150.0">
+                           <font>
+                              <Font name="Arial" size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="445.0" spacing="10.0">
+                     <children>
+                        <TextField fx:id="txt_id_kategori" maxWidth="400.0">
+                           <font>
+                              <Font name="Arial" size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txt_kategori" maxWidth="400.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button fx:id="btn_close" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="close-button" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+            <HBox layoutX="352.0" layoutY="200.0" spacing="10.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="170.0">
+               <children>
+                  <Button fx:id="btn_simpan" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Simpan" />
+                  <Button fx:id="btn_cancel" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Batal" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

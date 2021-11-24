@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="715.0" prefWidth="1160.0" style="-fx-background-color: #fff;" stylesheets="@../../style/Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.purchase.FormPurchaseController">
+   <children>
+      <Pane layoutX="29.0" layoutY="22.0" prefHeight="338.0" prefWidth="896.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <ImageView fitHeight="34.0" fitWidth="29.0" layoutX="11.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_buy_48px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="45.0" layoutY="11.0" text="Purchase " textFill="#3a1c9d">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow color="#d7d2d2" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Pane>
+      <Pane opacity="0.8" prefHeight="1.0" prefWidth="200.0" style="-fx-background-color: #b5b5b5;" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="62.0" />
+      <Pane prefHeight="204.0" prefWidth="1110.0" style="-fx-background-color: #fcfcfc; -fx-background-radius: 4;" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="70.0">
+         <effect>
+            <DropShadow color="#8180e4" height="5.0" radius="2.0" width="5.0" />
+         </effect>
+      </Pane>
+      <Text fx:id="lbl_total_harga" fill="#1e0486" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 3,000,000,000,000.-" textAlignment="RIGHT" wrappingWidth="350.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="235.0">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Text>
+      <GridPane alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="170.0" prefWidth="350.0" vgap="5.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="75.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="224.0" minWidth="10.0" prefWidth="109.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="384.0" minWidth="10.0" prefWidth="241.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1. No Transaksi">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2. Tanggal" wrappingWidth="85.572265625" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3. Supplier" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Text>
+            <JFXComboBox fx:id="cmb_supplier" prefHeight="20.0" prefWidth="342.0" styleClass="combo-style" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <JFXTextField fx:id="txt_no_transaksi" prefHeight="25.0" prefWidth="191.0" GridPane.columnIndex="1" />
+            <JFXDatePicker fx:id="dt_trans" prefHeight="20.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <JFXComboBox fx:id="cmb_type_bayar" prefHeight="20.0" prefWidth="342.0" styleClass="combo-style" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4. Tipe Bayar" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Text>
+            <JFXTextField fx:id="txt_no_faktur" prefHeight="25.0" prefWidth="191.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5. No Faktur" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Text>
+            <JFXTextField fx:id="txt_rec_by" prefHeight="25.0" prefWidth="191.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6. Diterima Oleh" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Text>
+         </children>
+      </GridPane>
+      <Separator orientation="VERTICAL" prefHeight="170.0" prefWidth="6.0" AnchorPane.leftAnchor="390.0" AnchorPane.topAnchor="75.0" />
+      <HBox alignment="BOTTOM_CENTER" prefHeight="25.0" AnchorPane.leftAnchor="405.0" AnchorPane.topAnchor="75.0">
+         <children>
+            <ImageView fitHeight="19.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_search_32px_1.png" />
+               </image>
+            </ImageView>
+            <JFXTextField fx:id="txt_cari" prefHeight="25.0" prefWidth="200.0" promptText="Search item ...">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </JFXTextField>
+            <JFXRadioButton fx:id="radio_kode" layoutX="259.0" layoutY="14.0" prefHeight="16.0" prefWidth="92.0" selected="true" text="Kode Item">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <toggleGroup>
+                  <ToggleGroup fx:id="rc" />
+               </toggleGroup>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="radio_nama" prefHeight="16.0" prefWidth="92.0" text="Nama Item" toggleGroup="$rc">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </JFXRadioButton>
+         </children>
+      </HBox>
+      <Separator prefWidth="200.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="110.0" />
+      <HBox alignment="BOTTOM_CENTER" layoutX="400.0" layoutY="165.0" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="115.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kode Item" wrappingWidth="79.37890625">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="txt_kode_item" prefHeight="20.0" prefWidth="300.0" />
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_CENTER" layoutX="410.0" layoutY="175.0" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="145.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Item" wrappingWidth="79.37890625">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="txt_nama_item" prefHeight="20.0" prefWidth="300.0" />
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_CENTER" layoutX="410.0" layoutY="210.0" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="175.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Harga" wrappingWidth="79.37890625">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="txt_harga" prefHeight="20.0" prefWidth="240.0" />
+            <Text fx:id="lbl_satuan" layoutX="10.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/ Pcs" wrappingWidth="55.37890625">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="410.0" layoutY="210.0" prefHeight="25.0" prefWidth="173.0" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="205.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Qty" wrappingWidth="79.37890625">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="txt_qty" prefHeight="20.0" prefWidth="100.0" />
+         </children>
+      </HBox>
+      <TableView fx:id="tbl_trans" layoutY="280.0" prefHeight="345.0" prefWidth="1110.0" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="280.0">
+         <columns>
+            <TableColumn fx:id="clm_kode_item" maxWidth="1.7976931348623157E308" prefWidth="130.0" text="KODE ITEM" />
+            <TableColumn fx:id="clm_nama_item" maxWidth="1.7976931348623157E308" prefWidth="300.0" text="NAMA ITEM" />
+            <TableColumn fx:id="clm_sat" maxWidth="1.7976931348623157E308" prefWidth="60.0" resizable="false" text="SAT" />
+            <TableColumn fx:id="clm_harga" maxWidth="1.7976931348623157E308" prefWidth="150.0" text="HARGA" />
+            <TableColumn fx:id="clm_qty" maxWidth="1.7976931348623157E308" prefWidth="60.0" text="QTY" />
+            <TableColumn fx:id="clm_total" maxWidth="1.7976931348623157E308" minWidth="150.0" prefWidth="150.0" text="TOTAL" />
+            <TableColumn fx:id="clm_edit" maxWidth="1.7976931348623157E308" minWidth="80.0" resizable="false" />
+            <TableColumn fx:id="clm_delete" maxWidth="1.7976931348623157E308" minWidth="80.0" resizable="false" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btn_batal" alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="64.0" prefWidth="70.0" text="Batal" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_cancel_36px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn_simpan" contentDisplay="TOP" layoutX="1040.0" layoutY="626.0" prefHeight="67.0" prefWidth="79.0" text="Simpan" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_save_36px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXListView fx:id="list_view_item" layoutX="432.0" layoutY="150.0" prefHeight="300.0" prefWidth="460.0" AnchorPane.leftAnchor="432.0" AnchorPane.topAnchor="105.0" />
+      <JFXButton fx:id="btn_kembali" buttonType="RAISED" text="Kembali" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_go_back_24px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.chart.StackedBarChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="2100.0" prefWidth="1170.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.dashboard.DashboardController">
+   <children>
+      <Pane layoutX="29.0" layoutY="22.0" prefHeight="338.0" prefWidth="896.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <effect>
+            <DropShadow color="#d7d2d2" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Pane>
+      <HBox alignment="CENTER_LEFT" spacing="10.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_line_chart_68px.png" />
+               </image>
+            </ImageView>
+            <Label text="Dashboard" textFill="#3a1c9d">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Separator prefWidth="200.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="65.0" />
+      <VBox fx:id="vx" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <Text fill="#14078d" strokeType="OUTSIDE" strokeWidth="0.0" text="Selamat Datang" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <StackPane fx:id="st" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="760.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="760.0">
+               <children>
+                  <VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="760.0" spacing="10.0" styleClass="vbox-panel" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox>
+                           <children>
+                              <LineChart fx:id="saleChart" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1110.0" title="Sales And Purchase Report">
+                                 <xAxis>
+                                    <CategoryAxis side="RIGHT" fx:id="xAxisSale" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis fx:id="yAxisSale" side="LEFT" />
+                                 </yAxis>
+                              </LineChart>
+                              <HBox alignment="CENTER_LEFT" prefHeight="370.0" prefWidth="1110.0">
+                                 <children>
+                                    <LineChart fx:id="saleChartMonth" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" title="Grapik Penjualan Bulan ini">
+                                       <xAxis>
+                                          <CategoryAxis side="RIGHT" fx:id="xAxisSaleMonth" />
+                                       </xAxis>
+                                       <yAxis>
+                                          <NumberAxis fx:id="yAxisSaleMonth" side="LEFT" />
+                                       </yAxis>
+                                    </LineChart>
+                                    <PieChart fx:id="itemTerlarisChart" prefHeight="400.0" prefWidth="472.0" title="10 Item Terlaris" />
+                                 </children>
+                                 <padding>
+                                    <Insets top="20.0" />
+                                 </padding>
+                              </HBox>
+                              <LineChart fx:id="hutangChart" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1110.0" title=" HUTANG PIUTANG">
+                                 <xAxis>
+                                    <CategoryAxis side="RIGHT" fx:id="xAxishutangPiutang" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis fx:id="yAxisHutangPiutang" side="LEFT" />
+                                 </yAxis>
+                              </LineChart>
+                              <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="710.0">
+                                 <children>
+                                    <StackedBarChart fx:id="hutangSupplierChart" prefHeight="400.0" prefWidth="700.0" title="Hutang By Supplier">
+                                      <xAxis>
+                                        <CategoryAxis side="BOTTOM" fx:id="xAxisHutangsupplier" />
+                                      </xAxis>
+                                      <yAxis>
+                                        <NumberAxis fx:id="yAxisHutangSupplier" side="LEFT" />
+                                      </yAxis>
+                                    </StackedBarChart>
+                                    <StackedBarChart fx:id="piutangCustomerChart" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="700.0" title="Piutang By Customer">
+                                       <xAxis>
+                                          <CategoryAxis side="BOTTOM" fx:id="xAxisPiutangCustomer" />
+                                       </xAxis>
+                                       <yAxis>
+                                          <NumberAxis fx:id="yAxisPiutangCustomer" side="LEFT" />
+                                       </yAxis>
+                                    </StackedBarChart>
+                                 </children>
+                              </HBox>
+                              <BarChart fx:id="cashTransactionChart" prefHeight="400.0" prefWidth="1110.0" title="Grafik Cash Transaction">
+                                <xAxis>
+                                  <CategoryAxis side="BOTTOM" fx:id="xAxistCashtransaction" />
+                                </xAxis>
+                                <yAxis>
+                                  <NumberAxis fx:id="yAxisCashTransaction" side="LEFT" />
+                                </yAxis>
+                              </BarChart>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="303.0" prefWidth="715.0" style="-fx-background-color: #fff;" styleClass="background" stylesheets="@../styles/mastersupplier.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appcore.controller.ProfileController">
+   <children>
+      <Pane layoutX="29.0" layoutY="22.0" prefHeight="493.0" prefWidth="1131.0" styleClass="background" stylesheets="@../styles/mastersupplier.css" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+         <children>
+            <ImageView fitHeight="46.0" fitWidth="51.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8_company_64px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="63.0" layoutY="30.0" text="Profile" textFill="#3a1c9d">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow color="#545454" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Pane>
+      <Pane opacity="0.8" prefHeight="1.0" prefWidth="200.0" style="-fx-background-color: #000000;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="60.0" />
+      <Pane prefHeight="263.0" prefWidth="734.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <GridPane prefHeight="183.0" prefWidth="484.0" vgap="5.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="224.0" minWidth="10.0" prefWidth="127.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="336.0" minWidth="10.0" prefWidth="336.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="71.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="67.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1. NAMA USAHA">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3. ALAMAT" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4. KOTA" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5. TELPON" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6. FAX" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="10.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <TextField fx:id="txt_nama_usaha" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_kota" prefHeight="25.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_telp" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_fax" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextArea fx:id="txt_almt" prefHeight="80.0" prefWidth="336.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <HBox layoutX="330.0" layoutY="330.0" spacing="20.0" AnchorPane.leftAnchor="405.0" AnchorPane.topAnchor="260.0">
+         <children>
+            <Button fx:id="btn_simpan" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Simpan" />
+         </children>
+      </HBox>
+      <Text fx:id="lbl_close" layoutX="621.0" layoutY="37.158203125" strokeType="OUTSIDE" strokeWidth="0.0" text="X" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Pane layoutX="505.0" layoutY="73.0" prefHeight="148.0" prefWidth="200.0" style="-fx-background-color: #fff;" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="73.0" />
+      <Label layoutX="506.0" layoutY="74.0" prefHeight="20.0" prefWidth="43.0" text="Logo" textAlignment="CENTER" textFill="#3a1c9d" AnchorPane.bottomAnchor="60.0" AnchorPane.rightAnchor="166.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="505.0" layoutY="69.0" prefHeight="148.0" prefWidth="200.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="72.0">
+         <children>
+            <ImageView fx:id="img_logo" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/bg_1.jpg" />
+               </image></ImageView>
+         </children>
+      </VBox>
+      <Button fx:id="btn_browse" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Browse ..." AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,724 @@
+[17-02-2021 22:27:52.848]: Load: /fxml/main/Home.fxml
+[18-02-2021 09:48:14.856]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 09:49:47.386]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 09:52:51.193]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 09:54:27.032]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 09:55:07.052]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 09:56:12.662]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:05:41.097]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:07:40.272]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:08:28.493]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:08:28.798]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:10:57.445]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:10:57.738]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:11:45.532]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:11:45.824]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:29:06.131]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 10:29:06.530]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 11:15:18.461]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 11:15:25.364]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 11:52:10.019]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 11:52:10.761]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 16:24:38.795]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 16:24:40.235]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 16:30:48.742]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 16:33:42.231]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 16:33:43.435]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 16:56:08.517]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 16:56:09.268]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:10:37.202]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:10:37.919]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:15:23.663]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:15:24.466]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:20:05.585]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:20:06.798]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:22:15.636]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 17:22:16.907]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:11:00.534]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:11:01.431]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:11:46.998]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:11:47.870]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:12:39.987]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:12:41.097]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:13:16.428]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:13:17.227]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:13:48.216]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:13:49.003]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:19:33.336]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:19:34.184]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:22:06.399]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:22:07.191]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:23:08.549]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:23:09.374]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:45:25.229]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:45:26.084]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:58:10.026]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 19:58:10.916]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:07:15.599]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:07:16.392]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:09:04.310]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:09:05.188]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:20:12.513]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:20:13.401]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:21:53.255]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:21:54.114]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:24:56.927]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 20:24:57.773]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:18:55.491]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:18:57.010]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:26:46.578]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:26:47.932]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:33:07.064]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:33:08.409]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:36:12.531]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:36:13.835]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:37:40.676]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:37:41.992]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:38:50.031]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:38:51.487]: After load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:41:57.189]: Load: /app/retail/fxml/home/Home.fxml
+[18-02-2021 22:41:58.577]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 08:32:08.038]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 08:32:08.950]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 08:44:39.555]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 08:44:40.471]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 09:17:48.143]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 09:17:49.000]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:05:55.685]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:05:56.564]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:39:13.992]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:39:14.884]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:46:12.272]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:46:13.135]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:53:26.851]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 10:53:27.747]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:11:31.344]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:11:32.269]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:13:18.245]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:14:30.796]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:14:31.770]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:21:49.521]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:31:30.225]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:31:31.064]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:32:36.561]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:32:37.534]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:39:29.430]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:39:30.272]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:43:21.614]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:43:22.553]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:49:10.170]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:49:10.990]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:54:06.691]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 21:54:07.571]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:01:33.394]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:01:34.273]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:05:41.164]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:05:42.030]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:08:56.555]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:08:57.436]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:14:27.158]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:14:28.051]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:19:50.452]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:19:51.278]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:29:45.234]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:29:46.104]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:31:00.883]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:31:01.832]: After load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:31:32.714]: Load: /app/retail/fxml/home/Home.fxml
+[19-02-2021 22:31:33.716]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 11:58:59.203]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 11:59:00.128]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:00:00.806]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:00:01.681]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:04:35.029]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:04:35.989]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:06:48.637]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:06:49.571]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:09:39.258]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:09:40.225]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:11:09.857]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:11:10.867]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:17:50.897]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:17:51.742]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:20:56.341]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:20:57.168]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:32:33.224]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:32:34.049]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:38:18.823]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 12:38:19.640]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:19:35.552]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:19:36.461]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:20:52.051]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:20:53.037]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:21:58.201]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:21:59.152]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:23:14.449]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 15:23:15.400]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:09:33.187]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:09:34.081]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:11:52.630]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:11:53.564]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:13:18.889]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:13:19.729]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:16:42.636]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:16:43.504]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:20:06.359]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:20:07.195]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:25:48.889]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:25:49.743]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:27:40.440]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:27:41.311]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:35:59.230]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:36:00.109]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:38:11.504]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:38:12.431]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:41:59.986]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:42:00.834]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:46:40.856]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:46:41.733]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:52:44.237]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:52:45.100]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:57:38.981]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:57:39.827]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:58:50.527]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 16:58:51.419]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:46:02.835]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:46:03.778]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:50:43.771]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:50:44.686]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:52:55.709]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:52:56.593]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:55:52.407]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:55:53.282]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:57:26.236]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 19:57:27.187]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:01:00.767]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:01:01.720]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:08:06.321]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:08:07.171]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:15:41.948]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:15:42.800]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:36:24.827]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:36:25.723]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:46:27.615]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:46:28.497]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:50:52.024]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:50:52.934]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:52:28.144]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:52:29.020]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:58:32.312]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 20:58:33.160]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:03:48.719]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:03:49.552]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:16:55.555]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:16:56.461]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:32:35.196]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:32:36.056]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:39:53.071]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:39:53.927]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:46:19.831]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:46:20.812]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:51:22.292]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:51:23.262]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:57:39.952]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 21:57:40.887]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:22:16.739]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:22:17.668]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:23:35.619]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:23:36.559]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:24:17.874]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:24:18.781]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:42:23.933]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:42:24.973]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:42:55.961]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:42:56.901]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:44:05.287]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:44:06.370]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:45:23.112]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:45:24.056]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:46:25.250]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:46:26.318]: After load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:48:31.088]: Load: /app/retail/fxml/home/Home.fxml
+[20-02-2021 22:48:31.991]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 09:59:02.241]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 09:59:03.180]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:02:00.311]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:02:01.236]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:03:17.703]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:03:18.675]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:07:39.543]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:07:40.414]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:16:30.970]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:16:31.865]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:19:14.386]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:19:15.313]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:28:48.986]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:28:49.903]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:32:11.058]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:32:11.960]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:36:29.049]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:36:29.962]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:40:37.442]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:40:38.345]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:43:11.675]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:43:12.585]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:45:16.145]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:45:17.106]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:46:52.840]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:46:53.760]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:53:37.989]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:53:38.926]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:57:54.185]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 10:57:55.101]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:21:58.146]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:21:59.083]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:23:17.801]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:23:18.698]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:24:09.076]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:24:09.974]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:26:01.006]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:26:01.968]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:28:56.647]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:28:57.593]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:30:40.052]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:30:40.946]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:35:00.345]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 11:35:01.308]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:21:14.415]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:21:15.398]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:23:24.036]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:23:25.090]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:24:25.748]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:24:26.682]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:27:15.107]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:27:16.028]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:28:09.906]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:28:10.966]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:33:13.025]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:33:13.926]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:34:13.283]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:34:14.305]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:36:17.433]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:36:18.450]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:42:23.309]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 19:42:24.337]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:01:02.946]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:01:03.826]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:03:28.300]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:03:29.199]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:37:42.024]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:37:42.914]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:42:31.288]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:42:32.237]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:44:14.155]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:44:15.144]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:45:28.148]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:45:29.044]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:46:57.288]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:46:58.194]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:47:42.329]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:47:43.405]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:52:43.257]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:52:44.173]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:53:41.203]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:53:42.195]: After load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:56:11.196]: Load: /app/retail/fxml/home/Home.fxml
+[21-02-2021 20:56:12.122]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 15:43:49.883]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 15:43:51.400]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 15:44:47.429]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 15:44:49.007]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 15:46:25.343]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 15:46:26.847]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:55:31.113]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:55:32.593]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:57:20.511]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:57:22.050]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:58:58.364]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:58:59.925]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:59:39.333]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 16:59:41.478]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:00:22.692]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:00:24.198]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:01:18.595]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:01:20.327]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:03:17.424]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:03:18.830]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:05:23.270]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:05:24.834]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:06:30.201]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:06:31.716]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:07:14.323]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:07:16.002]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:07:46.396]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:07:47.878]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:08:20.805]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 17:08:22.217]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:01:49.333]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:01:50.343]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:03:07.022]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:03:07.991]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:30:12.568]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:30:13.476]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:33:34.512]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 21:33:35.458]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:03:53.684]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:03:54.598]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:06:48.901]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:06:49.945]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:09:24.830]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:09:25.888]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:13:57.877]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:13:58.798]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:14:13.481]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:14:14.537]: After load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:15:30.268]: Load: /app/retail/fxml/home/Home.fxml
+[22-02-2021 22:15:31.317]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 10:48:04.317]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 10:48:05.493]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:27:11.042]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:27:12.487]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:27:56.843]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:27:58.332]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:29:18.621]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:29:20.041]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:30:47.552]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:30:48.950]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:32:13.396]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 16:32:14.874]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 19:45:43.746]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 19:45:44.698]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 20:38:35.891]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 20:38:36.851]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:11:56.784]: Starting aplication ..
+[25-02-2021 21:12:01.780]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:12:02.689]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:32:01.608]: Starting aplication ..
+[25-02-2021 21:32:06.137]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:32:07.110]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:35:40.028]: Starting aplication ..
+[25-02-2021 21:35:45.825]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:35:46.737]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:38:20.721]: Starting aplication ..
+[25-02-2021 21:38:25.643]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:38:26.549]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:41:51.904]: Starting aplication ..
+[25-02-2021 21:41:56.978]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:41:57.878]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:43:29.727]: Starting aplication ..
+[25-02-2021 21:43:34.610]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:43:35.549]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:50:04.317]: Starting aplication ..
+[25-02-2021 21:50:08.625]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:50:09.544]: After load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:56:04.610]: Starting aplication ..
+[25-02-2021 21:56:09.454]: Load: /app/retail/fxml/home/Home.fxml
+[25-02-2021 21:56:10.421]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 09:19:26.021]: Starting aplication ..
+[26-02-2021 09:19:38.116]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 09:19:39.858]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:01:26.898]: Starting aplication ..
+[26-02-2021 11:01:32.189]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:01:33.660]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:06:51.360]: Starting aplication ..
+[26-02-2021 11:06:57.029]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:06:58.600]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:11:20.155]: Starting aplication ..
+[26-02-2021 11:11:26.391]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:11:27.795]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:12:22.980]: Starting aplication ..
+[26-02-2021 11:12:35.502]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:12:36.879]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:14:22.760]: Starting aplication ..
+[26-02-2021 11:14:33.269]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:14:34.740]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:16:19.709]: Starting aplication ..
+[26-02-2021 11:16:34.441]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:16:35.826]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:17:15.083]: Starting aplication ..
+[26-02-2021 11:17:20.704]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:17:22.094]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:36:13.092]: Starting aplication ..
+[26-02-2021 11:38:06.626]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:38:08.118]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:39:24.750]: Starting aplication ..
+[26-02-2021 11:39:29.953]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 11:39:31.373]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 13:30:37.204]: Starting aplication ..
+[26-02-2021 13:30:41.826]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 13:30:42.768]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 14:11:45.615]: Starting aplication ..
+[26-02-2021 14:11:53.378]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 14:11:54.385]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:12:07.447]: Starting aplication ..
+[26-02-2021 15:12:11.991]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:12:12.898]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:14:40.749]: Starting aplication ..
+[26-02-2021 15:15:00.694]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:15:01.603]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:16:05.701]: Starting aplication ..
+[26-02-2021 15:16:11.006]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:16:11.921]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:17:49.625]: Starting aplication ..
+[26-02-2021 15:17:54.146]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:17:55.049]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:19:25.441]: Starting aplication ..
+[26-02-2021 15:19:57.546]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:19:58.458]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:51:07.150]: Starting aplication ..
+[26-02-2021 15:51:23.728]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:51:24.714]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:56:43.670]: Starting aplication ..
+[26-02-2021 15:56:53.757]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:56:55.220]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:57:32.981]: Starting aplication ..
+[26-02-2021 15:57:37.425]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:57:38.328]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:58:42.753]: Starting aplication ..
+[26-02-2021 15:58:53.879]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 15:58:54.851]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:00:12.754]: Starting aplication ..
+[26-02-2021 16:00:17.674]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:00:18.612]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:01:15.295]: Starting aplication ..
+[26-02-2021 16:01:20.415]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:01:21.573]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:24:20.279]: Starting aplication ..
+[26-02-2021 16:24:24.397]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:24:25.313]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:26:57.093]: Starting aplication ..
+[26-02-2021 16:27:01.259]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:27:02.194]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:27:50.164]: Starting aplication ..
+[26-02-2021 16:27:54.586]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:27:55.494]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:32:39.145]: Starting aplication ..
+[26-02-2021 16:32:44.913]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:32:45.884]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:34:53.089]: Starting aplication ..
+[26-02-2021 16:35:47.238]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:35:48.287]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:38:58.931]: Starting aplication ..
+[26-02-2021 16:39:03.779]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:39:04.703]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:58:05.497]: Starting aplication ..
+[26-02-2021 16:58:09.821]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 16:58:10.789]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 17:04:01.535]: Starting aplication ..
+[26-02-2021 17:05:12.737]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 17:05:13.705]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 17:06:35.866]: Starting aplication ..
+[26-02-2021 17:06:46.667]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 17:06:47.539]: After load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 17:07:58.696]: Starting aplication ..
+[26-02-2021 17:08:06.151]: Load: /app/retail/fxml/home/Home.fxml
+[26-02-2021 17:08:07.119]: After load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 20:07:54.415]: Starting aplication ..
+[27-02-2021 20:08:00.603]: Load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 20:08:02.540]: After load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 20:57:28.698]: Starting aplication ..
+[27-02-2021 20:58:21.402]: Load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 20:58:23.667]: After load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 21:00:43.351]: Starting aplication ..
+[27-02-2021 21:00:51.603]: Load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 21:00:53.947]: After load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 21:02:03.333]: Starting aplication ..
+[27-02-2021 21:02:09.886]: Load: /app/retail/fxml/home/Home.fxml
+[27-02-2021 21:02:11.922]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:04:23.137]: Starting aplication ..
+[28-02-2021 10:04:29.116]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:04:30.858]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:43:04.509]: Starting aplication ..
+[28-02-2021 10:43:14.714]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:43:16.070]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:48:45.369]: Starting aplication ..
+[28-02-2021 10:50:14.844]: Starting aplication ..
+[28-02-2021 10:50:29.154]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:50:30.516]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:53:42.391]: Starting aplication ..
+[28-02-2021 10:53:47.054]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 10:53:48.273]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:00:53.319]: Starting aplication ..
+[28-02-2021 11:03:03.143]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:03:04.535]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:04:35.167]: Starting aplication ..
+[28-02-2021 11:04:46.572]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:04:47.828]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:09:07.415]: Starting aplication ..
+[28-02-2021 11:09:22.302]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:09:23.532]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:09:35.457]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:09:35.992]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:12:56.300]: Starting aplication ..
+[28-02-2021 11:13:00.904]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:13:03.816]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:19:53.648]: Starting aplication ..
+[28-02-2021 11:20:30.355]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:20:31.732]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:23:17.488]: Starting aplication ..
+[28-02-2021 11:23:42.319]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:23:43.600]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:25:41.328]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:25:41.741]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:28:48.737]: Starting aplication ..
+[28-02-2021 11:28:53.489]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:28:54.830]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:30:06.803]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:30:07.286]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:58:19.541]: Starting aplication ..
+[28-02-2021 11:58:53.624]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:59:15.065]: Starting aplication ..
+[28-02-2021 11:59:19.463]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:59:31.006]: Starting aplication ..
+[28-02-2021 11:59:36.063]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 11:59:55.825]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:01:05.868]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:01:58.375]: Starting aplication ..
+[28-02-2021 12:02:03.708]: Starting aplication ..
+[28-02-2021 12:05:38.432]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:05:42.967]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:05:59.262]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:06:06.729]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:06:44.761]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:06:47.591]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:07:23.915]: Starting aplication ..
+[28-02-2021 12:07:28.454]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:07:29.705]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:12:26.640]: Starting aplication ..
+[28-02-2021 12:12:34.336]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:12:38.663]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:14:48.830]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:14:52.234]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:18:02.176]: Starting aplication ..
+[28-02-2021 12:18:07.516]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:18:08.770]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:23:41.786]: Starting aplication ..
+[28-02-2021 12:23:53.101]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:23:54.226]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:27:15.863]: Starting aplication ..
+[28-02-2021 12:27:21.100]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:27:22.364]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:42:28.617]: Starting aplication ..
+[28-02-2021 12:42:33.339]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:42:36.753]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:43:32.142]: Starting aplication ..
+[28-02-2021 12:44:05.702]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:44:06.883]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:50:22.877]: Starting aplication ..
+[28-02-2021 12:50:27.533]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:50:28.817]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:56:51.801]: Starting aplication ..
+[28-02-2021 12:56:56.793]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 12:56:58.063]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:13:26.292]: Starting aplication ..
+[28-02-2021 13:13:36.303]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:13:37.668]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:23:38.968]: Starting aplication ..
+[28-02-2021 13:23:44.110]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:23:45.300]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:24:52.274]: Starting aplication ..
+[28-02-2021 13:24:55.450]: Starting aplication ..
+[28-02-2021 13:25:00.679]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:25:01.869]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:45:20.383]: Starting aplication ..
+[28-02-2021 13:45:25.108]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:45:26.303]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:46:28.393]: Starting aplication ..
+[28-02-2021 13:46:34.699]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:46:35.944]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:47:35.556]: Starting aplication ..
+[28-02-2021 13:47:40.229]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:47:41.479]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:48:17.787]: Starting aplication ..
+[28-02-2021 13:48:22.928]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:48:24.190]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:51:32.104]: Starting aplication ..
+[28-02-2021 13:51:38.132]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:51:39.362]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:57:33.339]: Starting aplication ..
+[28-02-2021 13:57:38.849]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:57:40.188]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:58:27.696]: Starting aplication ..
+[28-02-2021 13:58:49.355]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 13:58:50.684]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 14:01:00.612]: Starting aplication ..
+[28-02-2021 14:01:24.596]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 14:01:25.984]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 20:33:49.565]: Starting aplication ..
+[28-02-2021 20:33:57.263]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 20:33:59.530]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 20:54:15.986]: Starting aplication ..
+[28-02-2021 20:54:21.358]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 20:54:23.526]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 20:58:34.164]: Starting aplication ..
+[28-02-2021 20:58:43.062]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 20:58:45.444]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:02:28.023]: Starting aplication ..
+[28-02-2021 21:02:33.430]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:02:35.841]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:04:44.304]: Starting aplication ..
+[28-02-2021 21:05:13.649]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:05:15.577]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:09:26.887]: Starting aplication ..
+[28-02-2021 21:09:33.774]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:09:35.826]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:11:55.269]: Starting aplication ..
+[28-02-2021 21:12:04.351]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:12:06.476]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:14:02.357]: Starting aplication ..
+[28-02-2021 21:14:14.665]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:14:17.365]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:16:59.589]: Starting aplication ..
+[28-02-2021 21:17:06.207]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:17:08.354]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:20:24.497]: Starting aplication ..
+[28-02-2021 21:21:44.117]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:21:46.209]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:22:58.789]: Starting aplication ..
+[28-02-2021 21:23:15.664]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:23:18.078]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:25:14.135]: Starting aplication ..
+[28-02-2021 21:25:20.162]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:25:22.425]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:26:45.870]: Starting aplication ..
+[28-02-2021 21:27:30.051]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:27:32.028]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:47:45.356]: Starting aplication ..
+[28-02-2021 21:47:53.702]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:47:55.893]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:49:56.508]: Starting aplication ..
+[28-02-2021 21:50:34.130]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:50:36.216]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:58:45.808]: Starting aplication ..
+[28-02-2021 21:58:52.703]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 21:58:54.990]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:01:33.098]: Starting aplication ..
+[28-02-2021 22:01:38.819]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:01:41.347]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:05:21.948]: Starting aplication ..
+[28-02-2021 22:05:27.873]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:05:30.160]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:11:17.504]: Starting aplication ..
+[28-02-2021 22:11:23.867]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:11:26.026]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:19:38.950]: Starting aplication ..
+[28-02-2021 22:19:45.264]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:19:47.506]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:22:02.477]: Starting aplication ..
+[28-02-2021 22:22:20.531]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:22:22.863]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:25:42.669]: Starting aplication ..
+[28-02-2021 22:25:48.675]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:25:50.899]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:27:07.784]: Starting aplication ..
+[28-02-2021 22:27:13.811]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:27:16.006]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:36:54.431]: Starting aplication ..
+[28-02-2021 22:36:59.768]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:37:02.098]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:38:10.267]: Starting aplication ..
+[28-02-2021 22:38:15.564]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:38:17.693]: After load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:39:09.487]: Starting aplication ..
+[28-02-2021 22:39:15.123]: Load: /app/retail/fxml/home/Home.fxml
+[28-02-2021 22:39:17.163]: After load: /app/retail/fxml/home/Home.fxml

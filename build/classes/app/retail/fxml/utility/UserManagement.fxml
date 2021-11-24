@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="521.0" prefWidth="1016.0" style="-fx-background-color: #fff;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.utility.UserManagementController">
+   <children>
+      <TableView fx:id="tbl_data" layoutX="400.0" layoutY="46.0" prefHeight="466.0" prefWidth="422.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0">
+         <columns>
+            <TableColumn fx:id="clm_no" prefWidth="28.0" text="NO" />
+            <TableColumn fx:id="clm_user_id" minWidth="140.0" prefWidth="140.0" text="USER ID" />
+            <TableColumn fx:id="clm_karyawan" minWidth="300.0" prefWidth="300.0" text="NAMA" />
+            <TableColumn fx:id="clm_akses" minWidth="200.0" prefWidth="200.0" text="AKSES" />
+            <TableColumn fx:id="clm_edit" minWidth="90.0" prefWidth="90.0" resizable="false" />
+            <TableColumn fx:id="clm_delete" minWidth="90.0" prefWidth="90.0" resizable="false" />
+            <TableColumn fx:id="clm_change_password" minWidth="150.0" prefWidth="150.0" resizable="false" />
+         </columns>
+      </TableView>
+      <Button fx:id="btn_tambah" mnemonicParsing="false" text="Tambah" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_plus_math_24px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
