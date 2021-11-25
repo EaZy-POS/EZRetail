@@ -1,5 +1,11 @@
-.button {
-    -fx-font-weight: bold;
+
+.button-fx{
+    -fx-background-radius:5;
+    -fx-background-color: #f0f0f0;
+}
+
+.button-fx:hover{
+    -fx-background-color: #d9dadb;
 }
 
 .table-view{
@@ -38,7 +44,7 @@
 
 
 .table-row-cell:hover {
-    -fx-background-color:#e6eefc;
+    -fx-background-color:#005cfc;
 }
 
 .table-row-cell:focused {

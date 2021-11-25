@@ -28,6 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.UUID;
 import javafx.application.Platform;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -477,6 +478,10 @@ public class FormMasterItemController extends AbstractMaster implements Initiali
             }
             cmb_subkategori.getSelectionModel().select(0);
         });
+        
+        btn_batal.setOnAction((evt)->{
+            initializeState();
+        });
 
         btn_simpan.setOnAction((ActionEvent event) -> {
             Optional<ButtonType> opt = EZSystem.showAllert(new Alert(Alert.AlertType.CONFIRMATION), "Simpan data item ?", EZIcon.ICON_STAGE);
@@ -844,7 +849,7 @@ public class FormMasterItemController extends AbstractMaster implements Initiali
 
     @Override
     public void clear() {
-        txt_kode_item.setText("ITM"+generateRefnum(Item.TABLENAME.get(), Item.ITEMCODE.get(), "ITM"+EZDate.FAKTUR.today()));
+        txt_kode_item.setText(generateRefnum(Item.TABLENAME.get(), Item.ITEMCODE.get(), "ITM"+EZDate.FAKTUR.today()));
         txt_margin_1.setEditable(false);
         txt_margin_2.setEditable(false);
         txt_margin_3.setEditable(false);
@@ -901,6 +906,7 @@ public class FormMasterItemController extends AbstractMaster implements Initiali
         loadKategori();
         loadSatuan();
         loadSupplier();
+        txt_nama_item.requestFocus();
     }
 
     @Override
@@ -939,18 +945,18 @@ public class FormMasterItemController extends AbstractMaster implements Initiali
         setLimitTexfield(txt_barcode_2, 40);
         setLimitTexfield(txt_barcode_3, 40);
         setLimitTexfield(txt_barcode_4, 40);
-        setLimitTexfield(txt_ppn_1, 5);
-        setLimitTexfield(txt_ppn_2, 5);
-        setLimitTexfield(txt_ppn_3, 5);
-        setLimitTexfield(txt_ppn_4, 5);
-        setLimitTexfield(txt_disc_1, 5);
-        setLimitTexfield(txt_disc_2, 5);
-        setLimitTexfield(txt_disc_3, 5);
-        setLimitTexfield(txt_disc_4, 5);
-        setLimitTexfield(txt_markup_1, 5);
-        setLimitTexfield(txt_markup_2, 5);
-        setLimitTexfield(txt_markup_3, 5);
-        setLimitTexfield(txt_markup_4, 5);
+        setLimitTexfield(txt_ppn_1, 4);
+        setLimitTexfield(txt_ppn_2, 4);
+        setLimitTexfield(txt_ppn_3, 4);
+        setLimitTexfield(txt_ppn_4, 4);
+        setLimitTexfield(txt_disc_1, 4);
+        setLimitTexfield(txt_disc_2, 4);
+        setLimitTexfield(txt_disc_3, 4);
+        setLimitTexfield(txt_disc_4, 4);
+        setLimitTexfield(txt_markup_1, 4);
+        setLimitTexfield(txt_markup_2, 4);
+        setLimitTexfield(txt_markup_3, 4);
+        setLimitTexfield(txt_markup_4, 4);
         setNumericTextfield(txt_stok_minimal_1);
         setNumericTextfield(txt_stok_minimal_2);
         setNumericTextfield(txt_stok_minimal_3);

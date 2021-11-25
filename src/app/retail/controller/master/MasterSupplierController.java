@@ -312,7 +312,7 @@ public class MasterSupplierController extends AbstractMaster implements Initiali
         });
 
         txt_cari.setOnKeyTyped((KeyEvent event) -> {
-            if (txt_cari.getText().length()>= 3) {
+            if (txt_cari.getText().length()> 2) {
                 searchDataByParam(txt_cari.getText());
             }else{
                 loadData();
@@ -358,18 +358,18 @@ public class MasterSupplierController extends AbstractMaster implements Initiali
             }
         });
         
-        tbl_supplier.setOnKeyPressed((event) -> {
-           if(event.getCode() == KeyCode.ENTER){
-               int indec = tbl_supplier.getSelectionModel().getSelectedIndex();
-               Optional<ButtonType> option = EZSystem.showAllert(new Alert(Alert.AlertType.CONFIRMATION), "Edit data ?", EZIcon.ICON_STAGE);
-                if (option.get() == ButtonType.OK) {
-                    kodeEdit = tbl_supplier.getItems().get(indec).getId();
-                    sttsSimpan = false;
-                    loadData(kodeEdit);
-                    txt_nama_supplier.requestFocus();
-                }
-           } 
-        });
+//        tbl_supplier.setOnKeyPressed((event) -> {
+//           if(event.getCode() == KeyCode.ENTER){
+//               int indec = tbl_supplier.getSelectionModel().getSelectedIndex();
+//               Optional<ButtonType> option = EZSystem.showAllert(new Alert(Alert.AlertType.CONFIRMATION), "Edit data ?", EZIcon.ICON_STAGE);
+//                if (option.get() == ButtonType.OK) {
+//                    kodeEdit = tbl_supplier.getItems().get(indec).getId();
+//                    sttsSimpan = false;
+//                    loadData(kodeEdit);
+//                    txt_nama_supplier.requestFocus();
+//                }
+//           } 
+//        });
     }
 
     @Override
