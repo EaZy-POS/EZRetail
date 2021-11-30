@@ -31,8 +31,6 @@ import java.util.LinkedList;
 import java.util.Optional;
 import java.util.ResourceBundle;
 import java.util.UUID;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.Event;

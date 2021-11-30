@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="EZRetail.jar" size="1420432" download="eager" />
+    <jar href="EZRetail.jar" size="1420437" download="eager" />
     <jar href="lib\AppCoreSystem-1.0.0-SNAPSHOT.jar" size="28302" download="eager" />
     <jar href="lib\CommonCore-0.1.0.jar" size="45739" download="eager" />
     <jar href="lib\SparseBitSet-1.2.jar" size="24510" download="eager" />
