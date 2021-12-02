@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="606.0" prefWidth="1060.0" style="-fx-background-color: #ffffff;" styleClass="mainFxmlClass" stylesheets="@../../style/home.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.home.HomeController">
+   <children>
+      <Pane prefHeight="100.0" prefWidth="861.0" styleClass="head-background" stylesheets="@../../style/style.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fx:id="txt_nama_tko" fill="WHITE" layoutX="204.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="App Retail" wrappingWidth="300.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="txt_alamat" fill="WHITE" layoutX="204.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jl. Suka Senang No. 20, Bandung-Jawa Barat" wrappingWidth="300.0">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="txt_telp_fax" fill="WHITE" layoutX="204.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telp. 0823-1010-1010 Fax. -" wrappingWidth="300.0" />
+         </children>
+      </Pane>
+      <VBox alignment="CENTER" prefHeight="71.0" prefWidth="95.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_male_user_32px.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="txt_users" fill="#25008a" strokeType="OUTSIDE" strokeWidth="0.0" text="User">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Text>
+            <JFXButton fx:id="btn_logout" text="Logout" textFill="#ff0505">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_go_back_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </VBox>
+      <VBox layoutY="130.0" prefHeight="506.0" prefWidth="190.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <JFXButton fx:id="btn_home" alignment="BASELINE_LEFT" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" stylesheets="@../../style/home.css" text="Home">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_home_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </JFXButton>
+            <Line endX="74.5" startX="-100.0">
+               <VBox.margin>
+                  <Insets left="15.0" />
+               </VBox.margin>
+            </Line>
+            <Text fill="#2a11b9" strokeType="OUTSIDE" strokeWidth="0.0" text="Inventory" wrappingWidth="84.13671875">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="15.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="btn_data" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="Data">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_accounting_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="btn_stock" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="193.0" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="Stock">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_trolley_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+            <Text fill="#2a11b9" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaction" wrappingWidth="84.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="15.0" />
+               </VBox.margin>
+            </Text>
+            <JFXButton fx:id="btn_purchase" alignment="BASELINE_LEFT" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="Purchase">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_buy_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="btn_pos" alignment="BASELINE_LEFT" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="POS">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_cash_register_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+            <Text fill="#2a11b9" strokeType="OUTSIDE" strokeWidth="0.0" text="Advance" wrappingWidth="88.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="15.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+            <JFXButton fx:id="btn_master" alignment="BASELINE_LEFT" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="Master">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_document_48px_1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="btn_finance" alignment="BASELINE_LEFT" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="Finance ">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_general_ledger_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="btn_tools" alignment="BASELINE_LEFT" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="Tools">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_maintenance_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+            <Text fill="#2a11b9" layoutX="25.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report" visible="false" wrappingWidth="88.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="15.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+            <JFXButton fx:id="btn_report" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="388.0" prefHeight="40.0" prefWidth="190.0" ripplerFill="#dfdcf5" text="Report" visible="false">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_report_card_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </JFXButton>
+         </children>
+      </VBox>
+      <Pane fx:id="pane_logo" layoutX="17.0" layoutY="7.0" prefHeight="115.0" prefWidth="150.0" style="-fx-background-radius: 4; -fx-background-color: #fafcfc;" styleClass="head-background-line" stylesheets="@../../style/style.css" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="12.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#727272" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Pane>
+      <Pane layoutX="699.0" layoutY="133.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="135.0" />
+      <Pane layoutX="250.0" layoutY="541.0" prefHeight="30.0" prefWidth="801.0" style="-fx-background-color: #e8e8e8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label fx:id="txt_copyright" layoutX="14.0" layoutY="6.0" prefHeight="17.0" prefWidth="501.0" text="Developed by M. Lutfi Rianto @2020" textFill="#3c01fc" />
+         </children>
+      </Pane>
+      <ScrollPane layoutX="250.0" layoutY="152.0" prefHeight="406.0" prefWidth="810.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
+         <content>
+            <AnchorPane fx:id="pnl_scroll" style="-fx-background-color: #fff;" />
+         </content>
+      </ScrollPane>
+      <Text fx:id="lbl_datetime" fill="#3265ed" layoutX="885.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumat, 10 Feb 2020 10:00:00" textAlignment="RIGHT" wrappingWidth="163.6044921875" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="103.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="14.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER" layoutX="20.0" layoutY="4.0" prefHeight="130.0" prefWidth="140.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="4.0">
+         <children>
+            <ImageView fx:id="img_logo" fitHeight="116.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/EaZy%20POS11.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

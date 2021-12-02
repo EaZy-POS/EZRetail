@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorePane" minWidth="421.0" prefHeight="519.0" prefWidth="897.0" style="-fx-background-color: #00054d; -fx-background-radius: 5;" stylesheets="@../../style/formpelanggan.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.pos.FormCariItemController">
+   <children>
+      <Pane prefHeight="388.0" prefWidth="565.0" style="-fx-background-color: #fff; -fx-background-radius: 5;" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="40.0" />
+      <HBox alignment="CENTER_RIGHT" spacing="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <TextField fx:id="txt_nama_item" maxWidth="420.0" prefHeight="30.0" prefWidth="420.0" promptText="Cari Item">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="QTY">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="txt_qty" layoutX="10.0" layoutY="10.0" maxWidth="400.0" prefHeight="30.0" prefWidth="80.0" promptText="Qty">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </TextField>
+            <JFXButton fx:id="btn_ok" buttonType="RAISED" prefHeight="30.0" prefWidth="60.0" styleClass="button-close" stylesheets="@../../style/formloadpos.css" text="OK" textFill="#f2f2f2">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Text fill="#fbff00" strokeType="OUTSIDE" strokeWidth="0.0" text="CARI ITEM" textAlignment="CENTER" wrappingWidth="748.0">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <TableView fx:id="tbl_trans" layoutY="94.0" prefHeight="358.0" prefWidth="748.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="90.0">
+         <columns>
+            <TableColumn fx:id="clm_sku" minWidth="150.0" prefWidth="150.0" resizable="false" text="SKU" />
+            <TableColumn fx:id="clm_barcode" minWidth="150.0" prefWidth="150.0" text="BARCODE" />
+            <TableColumn fx:id="clm_nama_item" minWidth="250.0" prefWidth="250.0" text="NAMA ITEM" />
+            <TableColumn fx:id="clm_sat" minWidth="80.0" resizable="false" text="SAT" />
+            <TableColumn fx:id="clm_harga" minWidth="110.0" prefWidth="110.0" resizable="false" text="HARGA" />
+            <TableColumn fx:id="clm_action" minWidth="80.0" resizable="false" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btn_batal" buttonType="RAISED" prefHeight="39.0" prefWidth="89.0" styleClass="button-close" stylesheets="@../../style/formloadpos.css" text="Close" textFill="#f2f2f2" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="15.0">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_cancel_32px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

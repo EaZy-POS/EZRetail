@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorePane" minWidth="326.0" prefHeight="522.0" prefWidth="1000.0" style="-fx-background-color: #00054d; -fx-background-radius: 5;" stylesheets="@../../style/formloadpos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.pos.FormRefunfController">
+   <children>
+      <Pane prefHeight="388.0" prefWidth="565.0" style="-fx-background-color: #fff; -fx-background-radius: 5;" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="40.0" />
+      <HBox alignment="CENTER" layoutX="5.0" layoutY="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Text fill="#fbff00" strokeType="OUTSIDE" strokeWidth="0.0" text="FORM REFUND" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <JFXButton fx:id="btn_batal" buttonType="RAISED" prefHeight="39.0" prefWidth="89.0" styleClass="button-close" text="Batal" textFill="#f2f2f2" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="15.0">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_cancel_32px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <HBox alignment="CENTER_LEFT" layoutX="15.0" layoutY="20.0" spacing="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Text fx:id="lbl_kode_item" fill="#11016f" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXDatePicker fx:id="dt_trans" prefHeight="28.0" prefWidth="140.0" />
+            <Text fx:id="lbl_kode_item1" fill="#11016f" strokeType="OUTSIDE" strokeWidth="0.0" text="Faktur">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXComboBox fx:id="cmb_faktur" prefHeight="25.0" prefWidth="200.0" />
+            <Text fx:id="lbl_kode_item11" fill="#11016f" strokeType="OUTSIDE" strokeWidth="0.0" text="Cari">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="txt_search" prefHeight="25.0" prefWidth="200.0" />
+         </children>
+      </HBox>
+      <Separator prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <JFXButton fx:id="btn_simpan" buttonType="RAISED" layoutX="338.0" layoutY="176.0" prefHeight="39.0" prefWidth="107.0" styleClass="button-close" text="Simpan" textFill="#f2f2f2" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="15.0">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_save_36px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <TableView fx:id="tbl_trans" layoutX="16.0" layoutY="94.0" prefHeight="330.0" prefWidth="930.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="85.0">
+        <columns>
+          <TableColumn fx:id="clm_kode_item" minWidth="120.0" prefWidth="120.0" resizable="false" text="KODE ITEM" />
+          <TableColumn fx:id="clm_nama_item" maxWidth="400.0" minWidth="300.0" prefWidth="300.0" text="NAMA ITEM" />
+            <TableColumn fx:id="clm_sat" minWidth="80.0" resizable="false" text="SAT" />
+            <TableColumn fx:id="clm_harga" maxWidth="150.0" minWidth="100.0" prefWidth="100.0" text="HARGA" />
+            <TableColumn fx:id="clm_qty" minWidth="75.0" prefWidth="75.0" resizable="false" text="QTY" />
+            <TableColumn fx:id="clm_disc" maxWidth="150.0" minWidth="70.0" prefWidth="70.0" text="DISC(%)" />
+            <TableColumn fx:id="clm_sisa" minWidth="75.0" prefWidth="75.0" resizable="false" text="SISA" />
+            <TableColumn fx:id="clm_qty_refund" minWidth="100.0" prefWidth="100.0" resizable="false" text="REFUND" />
+            <TableColumn fx:id="clm_total" maxWidth="150.0" minWidth="100.0" prefWidth="100.0" text="TOTAL" />
+        </columns>
+      </TableView>
+      <JFXListView fx:id="list_faktur" layoutX="506.0" layoutY="80.0" prefHeight="260.0" prefWidth="200.0" AnchorPane.rightAnchor="245.0" AnchorPane.topAnchor="80.0" />
+      <Text fx:id="lbl_gran_total" fill="#150354" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 1,000" AnchorPane.bottomAnchor="60.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <JFXCheckBox fx:id="check_all" text="Semua" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="60.0" />
+   </children>
+</AnchorPane>

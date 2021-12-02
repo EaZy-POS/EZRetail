@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorePane" prefHeight="598.0" prefWidth="1330.0" style="-fx-background-color: #fff;" stylesheets="@../../style/pos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.retail.controller.pos.POSController">
+   <children>
+      <Pane id="head-pane" layoutX="5.0" layoutY="49.0" prefHeight="50.0" prefWidth="627.0" styleClass="head-pane" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
+         <effect>
+            <DropShadow color="#808080" />
+         </effect>
+      </Pane>
+      <Text fill="#00054d" layoutX="20.0" layoutY="82.6318359375" strokeType="OUTSIDE" strokeWidth="0.0" text="Grand Total" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="60.0">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="lbl_prfile" fill="#15038d" strokeType="OUTSIDE" strokeWidth="0.0" text="Super Grosir Jl. Merdeka Raya No.20, Jakarta Telp.0877-1010-1010" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="3.0">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Text>
+      <VBox alignment="TOP_CENTER" layoutX="1033.0" layoutY="113.0" prefHeight="153.0" prefWidth="280.0" spacing="5.0" styleClass="other-pane" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="5.0">
+         <children>
+            <Text fx:id="lbl_kasir" fill="#eff505" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrator" textAlignment="CENTER" wrappingWidth="270.0">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Text>
+            <Separator prefWidth="200.0" />
+            <Text fx:id="lbl_shift" fill="#f5f400" layoutX="15.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shift 1" textAlignment="CENTER" wrappingWidth="270.0">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <Separator layoutX="15.0" layoutY="47.0" prefWidth="200.0" />
+            <Text fx:id="lbl_tanggal" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="270.0">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Separator layoutX="15.0" layoutY="83.0" prefWidth="200.0" />
+            <JFXButton fx:id="btn_close" buttonType="RAISED" centerShape="false" contentDisplay="TOP" prefHeight="55.0" prefWidth="80.0" styleClass="button-close" text="close" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_power_off_button_50px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+      <TableView fx:id="tbl_trans" layoutX="368.0" layoutY="133.0" prefHeight="249.0" prefWidth="1320.0" AnchorPane.bottomAnchor="205.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="145.0">
+        <columns>
+          <TableColumn fx:id="clm_kode_item" prefWidth="104.0" resizable="false" text="KODE ITEM" />
+          <TableColumn fx:id="clm_nama_item" maxWidth="500.0" minWidth="300.0" prefWidth="300.0" text="NAMA ITEM" />
+            <TableColumn fx:id="clm_sat" minWidth="0.0" prefWidth="70.0" text="SAT" />
+            <TableColumn fx:id="clm_harga" prefWidth="100.0" text="HARGA" />
+            <TableColumn fx:id="clm_min" prefWidth="40.0" />
+            <TableColumn fx:id="clm_qty" prefWidth="60.0" text="QTY" />
+            <TableColumn fx:id="clm_plus" prefWidth="40.0" />
+            <TableColumn fx:id="clm_disc" prefWidth="60.0" text="DISC(%)" />
+            <TableColumn fx:id="clm_total" prefWidth="140.0" text="TOTAL" />
+            <TableColumn fx:id="clm_delete" minWidth="80.0" />
+        </columns>
+      </TableView>
+      <Pane id="head-pane" layoutX="368.0" layoutY="169.0" prefHeight="115.0" prefWidth="1032.0" style="-fx-background-color: #00054d; -fx-background-radius: 3;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="295.0">
+         <effect>
+            <DropShadow color="#c6dbdd" />
+         </effect>
+      </Pane>
+      <HBox alignment="CENTER_LEFT" layoutX="1210.0" layoutY="129.0" spacing="5.0" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="400.0">
+         <children>
+            <JFXButton fx:id="btn_hold" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="Hold (F1)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_card_payment_24px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_load" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="Load (F2)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_download_from_ftp_24px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_cust" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="Cust (F3)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_reception_24px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_cari" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="Cari (F4)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_search_64px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_refund" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="Refund (F5)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_refund_30px_1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_change_qty" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" layoutX="640.0" layoutY="10.0" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="QTY (F6)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_refresh_barcode_48px_2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_disc_item" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="Disc (F7)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_discount_24px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_disc_all" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" layoutX="730.0" layoutY="10.0" prefHeight="60.0" prefWidth="130.0" styleClass="button-menu" text="Disc All (F8)" textFill="#0a0a8d">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_swivel_24px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_batal" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="60.0" prefWidth="120.0" styleClass="button-menu" text="Batal (F9)" textAlignment="CENTER" textFill="#f21800">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/icons8_cancel_36px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </JFXButton>
+         </children>
+      </HBox>
+      <Text fx:id="lbl_total_harga" fill="#fbfbfb" layoutX="1118.6103515625" layoutY="79.158203125" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 3,000,000" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="btn_bayar" alignment="CENTER" buttonType="RAISED" centerShape="false" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="120.0" styleClass="button-bayar" text="Bayar (F10)" textAlignment="CENTER" textFill="#f5f105" AnchorPane.bottomAnchor="135.0" AnchorPane.rightAnchor="295.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8_pay_30px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <HBox alignment="CENTER" layoutX="110.0" layoutY="101.0" spacing="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="105.0">
+         <children>
+            <TextField fx:id="txt_cari" prefHeight="35.0" prefWidth="500.0" promptText="Cari ...">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </TextField>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER_RIGHT" spacing="5.0" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="300.0">
+         <children>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="Sub Total" wrappingWidth="110.0">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="lbl_subtotal" fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="Sub Total" textAlignment="RIGHT" wrappingWidth="150.0">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Text fx:id="lbl_nama_custoer" fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="Disc" wrappingWidth="110.0">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="lbl_disc_all" fill="#fff600" layoutX="10.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disc" textAlignment="RIGHT" wrappingWidth="150.0">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Separator prefWidth="200.0" />
+            <HBox>
+               <children>
+                  <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Item" wrappingWidth="110.0">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lbl_total_item" fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="10" textAlignment="RIGHT" wrappingWidth="150.0">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Trans" wrappingWidth="110.0">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lbl_ttl_trans" fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="10" textAlignment="RIGHT" wrappingWidth="150.0">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Separator prefWidth="200.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="205.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+      <VBox alignment="CENTER_RIGHT" layoutX="785.0" layoutY="497.0" prefHeight="99.0" prefWidth="255.0" spacing="5.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="15.0">
+         <children>
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="PELANGGAN" textAlignment="CENTER" wrappingWidth="255.0">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Separator prefWidth="200.0" />
+                  <Text fx:id="lbl_nama_customer" fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" textAlignment="CENTER" wrappingWidth="255.0">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lbl_kd_customer" fill="#fff600" layoutX="10.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CUST0001" textAlignment="CENTER" wrappingWidth="255.0">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
