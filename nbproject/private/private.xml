@@ -11,6 +11,9 @@
             <file>file:/D:/EaZy/App-Retail/src/app/retail/controller/utility/UtilityController.java</file>
             <file>file:/D:/EaZy/App-Retail/src/app/retail/controller/login/FormLoginController.java</file>
         </group>
-        <group/>
+        <group>
+            <file>file:/D:/EaZy/EZRetail/src/app/retail/controller/pos/FormQtyControler.java</file>
+            <file>file:/D:/EaZy/EZRetail/src/app/retail/controller/pos/POSController.java</file>
+        </group>
     </open-files>
 </project-private>
