@@ -298,24 +298,23 @@ public class DataStockOpnameController extends AbstractStock implements Initiali
     public void setToolTip() {
         AnchorPane.setPrefWidth(getWidth()-250);
         AnchorPane.setPrefHeight(getHeight()- 355);
-        setAligmentColoum(clm_tanggl, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_id_trans, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_input_by, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_status, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_no, Pos.CENTER_LEFT);
         btn_add.setCursor(Cursor.HAND);
         btn_add.setTooltip(new Tooltip("Tambah"));
         btn_print.setCursor(Cursor.HAND);
         btn_print.setTooltip(new Tooltip("Print"));
-        double lebar = getWidth() - 200;
-        clm_no.setPrefWidth((lebar * 3)/100);
-        clm_tanggl.setPrefWidth((lebar * 10)/100);
-        clm_id_trans.setPrefWidth((lebar * 20)/100);
-        clm_input_by.setPrefWidth((lebar * 20)/100);
-        clm_status.setPrefWidth((lebar * 10)/100);
-        clm_ac1.setPrefWidth((lebar * 8)/100);
-        clm_ac2.setPrefWidth((lebar * 8)/100);
-        clm_ac3.setPrefWidth((lebar * 17)/100);
+        setColumnWidth();
+    }
+    
+    private void setColumnWidth(){
+        tbl_purchase.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+        setColumnWithProperty(tbl_purchase, clm_no, 0.05, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_tanggl, 0.1, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_id_trans, 0.20, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_input_by, 0.20, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_status, 0.1, true, Pos.CENTER);
+        setColumnWithProperty(tbl_purchase, clm_ac1, 0.10, false, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_ac2, 0.10, false, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_ac3, 0.15, false, Pos.CENTER_LEFT);
     }
 
     @Override

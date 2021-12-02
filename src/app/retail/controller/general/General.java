@@ -13,6 +13,7 @@ import app.retail.controller.pos.PosMaster;
 import app.retail.controller.utility.UtilityController;
 import app.retail.model.master.ItemModel;
 import app.retail.model.purchase.POModel;
+import app.retail.model.stock.StockModel;
 import app.retail.utility.EZAlertType;
 import app.retail.utility.EZButtonType;
 import app.retail.utility.EZDate;
@@ -65,6 +66,7 @@ import javafx.scene.input.KeyCombination;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.Mnemonic;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -616,4 +618,44 @@ public abstract class General extends Thread{
         General.mPosMaster = mPosMaster;
     }
     
+    public void setWrapingColumnTable(TableColumn column, Pos poVal) {
+        column.setCellFactory(param -> {
+            return new TableCell<StockModel, String>() {
+                @Override
+                protected void updateItem(String item, boolean empty) {
+                    super.updateItem(item, empty);
+                    if (item == null || empty) {
+                        setText(null);
+                        setStyle("");
+                    } else {
+                        Text text = new Text(item);
+                        if (null != poVal) switch (poVal) {
+                            case CENTER_LEFT:
+                                text.setStyle("-fx-text-alignment:justify;");
+                                break;
+                            case CENTER:
+                                text.setStyle("-fx-text-alignment:center;");
+                                break;
+                            case CENTER_RIGHT:
+                                text.setStyle("-fx-text-alignment:right;");
+                                break;
+                            default:
+                                break;
+                        }
+                        
+                        text.wrappingWidthProperty().bind(getTableColumn().widthProperty().subtract(5));
+                        setGraphic(text);
+                    }
+                }
+            };
+        });
+    }
+    
+    public void setColumnWithProperty(TableView table, TableColumn column, double width, boolean isWrapping, Pos pos){
+        column.minWidthProperty().bind(table.widthProperty().multiply(width));
+        column.prefWidthProperty().bind(table.widthProperty().multiply(width));
+        if (isWrapping) {
+            setWrapingColumnTable(column, pos);
+        }
+    }
 }

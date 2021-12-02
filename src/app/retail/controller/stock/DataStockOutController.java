@@ -206,26 +206,23 @@ public class DataStockOutController extends AbstractStock implements Initializab
     public void setToolTip() {
         AnchorPane.setPrefWidth(getWidth()-250);
         AnchorPane.setPrefHeight(getHeight()- 355);
-        setAligmentColoum(clm_tanggl, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_kode_trans, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_input_by, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_total_item, Pos.CENTER);
-        setAligmentColoum(clm_no, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_total_qty, Pos.CENTER);
-        setAligmentColoum(clm_ket, Pos.CENTER_LEFT);
         btn_tambah.setCursor(Cursor.HAND);
         btn_tambah.setTooltip(new Tooltip("Tambah"));
         btn_print.setCursor(Cursor.HAND);
         btn_print.setTooltip(new Tooltip("Print"));
-        double lebar = getWidth() - 200;
-        clm_no.setPrefWidth((lebar * 3)/100);
-        clm_tanggl.setPrefWidth((lebar * 10)/100);
-        clm_kode_trans.setPrefWidth((lebar * 15)/100);
-        clm_input_by.setPrefWidth((lebar * 15)/100);
-        clm_total_item.setPrefWidth((lebar * 8)/100);
-        clm_total_qty.setPrefWidth((lebar * 8)/100);
-        clm_ket.setPrefWidth((lebar * 30)/100);
-        clm_view.setPrefWidth((lebar * 7)/100);
+        setColumnWidth();
+    }
+    
+    private void setColumnWidth(){
+        tbl_purchase.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+        setColumnWithProperty(tbl_purchase, clm_no, 0.05, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_tanggl, 0.1, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_kode_trans, 0.20, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_input_by, 0.20, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_total_item, 0.17, true, Pos.CENTER);
+        setColumnWithProperty(tbl_purchase, clm_total_qty, 0.17, true, Pos.CENTER);
+        setColumnWithProperty(tbl_purchase, clm_ket, 0.20, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_view, 0.1, false, Pos.CENTER_LEFT);
     }
 
     @Override

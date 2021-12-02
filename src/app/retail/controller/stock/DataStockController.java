@@ -371,29 +371,24 @@ public class DataStockController extends AbstractStock implements Initializable 
     public void setToolTip() {
         AnchorPane.setPrefWidth(getWidth()-250);
         AnchorPane.setPrefHeight(getHeight()- 355);
-        setAligmentColoum(clm_sku, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_barcode, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_nam_item, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_sat, Pos.CENTER);
-        setAligmentColoum(clm_stok, Pos.CENTER);
-        setAligmentColoum(clm_no, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_sup, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_kat, Pos.CENTER_LEFT);
-        setAligmentColoum(clm_harga, Pos.CENTER_RIGHT);
         btn_print.setCursor(Cursor.HAND);
         btn_search.setCursor(Cursor.HAND);
         btn_print.setTooltip(new Tooltip("print"));
-        btn_search.setTooltip(new Tooltip("cari"));
-        double lebar = getWidth() - 200;
-        clm_no.setPrefWidth((lebar * 3)/100);
-        clm_sku.setPrefWidth((lebar * 12)/100);
-        clm_barcode.setPrefWidth((lebar * 12)/100);
-        clm_nam_item.setPrefWidth((lebar * 24)/100);
-        clm_sat.setPrefWidth((lebar * 5)/100);
-        clm_sup.setPrefWidth((lebar * 10)/100);
-        clm_kat.setPrefWidth((lebar * 10)/100);
-        clm_harga.setPrefWidth((lebar * 10)/100);
-        clm_stok.setPrefWidth((lebar * 5)/100);
+        btn_search.setTooltip(new Tooltip("cari"));;
+        setColumnWidth();
+    }
+    
+    private void setColumnWidth(){
+        tbl_purchase.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+        setColumnWithProperty(tbl_purchase, clm_no, 0.05, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_sku, 0.15, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_barcode, 0.15, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_nam_item, 0.25, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_sat, 0.05, true, Pos.CENTER);
+        setColumnWithProperty(tbl_purchase, clm_sup, 0.10, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_kat, 0.10, true, Pos.CENTER_LEFT);
+        setColumnWithProperty(tbl_purchase, clm_harga, 0.09, true, Pos.CENTER_RIGHT);
+        setColumnWithProperty(tbl_purchase, clm_stok, 0.05, true, Pos.CENTER_RIGHT);
     }
 
     @Override

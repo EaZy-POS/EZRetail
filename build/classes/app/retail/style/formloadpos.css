@@ -1,8 +1,0 @@
-.button-close{
-    -fx-background-radius:5;
-    -fx-background-color:  #00054d;
-}
-
-.button-close:hover{
-   -fx-background-color: #242db3;
-}
